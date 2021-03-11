@@ -20,6 +20,7 @@ public class Main {
         int n = str.length;
         int[][] m = new int[n][n];
         int[] label = new int[n]; //n个节点，记录图中节点有没有被访问过
+        //将输入保存为二维数组
         for (int i = 0; i < n; i++) {
             label[i] = 0;
             for (int j = 0; j < n; j++) {
@@ -27,7 +28,10 @@ public class Main {
             }
         }
         int sum =0;
+        //记录子图个数
         for (int i = 0; i < n; i++) {
+            //对于所有节点来说，如果节点没有被访问过，就进行一次dfs，将路径上所有节点标记为访问过
+            //一次dfs，其实就是一条访问路径，也就是一个连通子图
             if(label[i]!=1){
                 dfs(i,n,label,m);
                 sum++;
@@ -36,6 +40,10 @@ public class Main {
         System.out.println(sum);
     }
     public static void dfs(int i, int n, int[] label, int[][] matrix){
+        //对节点i来说，进行DFS
+        //将节点i的label标为1，证明访问过了
+        //继续访问所有和i连接的节点j，如果j没有被访问过，那么就继续dfs遍历，将遇到的节点都标志为1
+        //直到从i开始的所有路径都被访问过为止
         label[i] = 1;
         for (int j = 0; j <n ; j++) {
             if(matrix[i][j]==1&&label[j]!=1) dfs(j,n,label,matrix);
