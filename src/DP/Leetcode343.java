@@ -18,4 +18,13 @@ public class Leetcode343 {
         //对于n，最大乘积为：
         return dp[n];
     }
+
+    //方法2：数学
+    public int integerBreak2(int n){
+        if(n<=3) return n-1;
+        int a = n/3, b = n%3;
+        if(b==0) return (int)Math.pow(3,a);
+        if(b==1) return (int)Math.pow(3,a-1) * 4;
+        return (int)Math.pow(3,a) * 2;
+    }
 }
