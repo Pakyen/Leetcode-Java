@@ -34,7 +34,7 @@ public class Leetcode93 {
 
     }
     private boolean isValid(StringBuilder s, int start, int end){
-        if(start>end || star>=s.length()) return false;
+        if(start>end || start>=s.length()) return false;
         if(s.charAt(start)=='0'&&start!=end) return false;
         int num =0;
         for (int i = start; i <= end; i++) {
