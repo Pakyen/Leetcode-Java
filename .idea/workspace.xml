@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b402375-e328-4581-a92e-4101a2448228" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sort/shellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtracking/Subset/Leetcode491.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtracking/Subset/Leetcode78.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Backtracking/Subset/Leetcode90.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/bubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/insertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/mergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/selectionSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,17 +29,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Sort/shellSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,13 +78,16 @@
         <option value="$PROJECT_DIR$/src/Backtracking/Partition/Leetcode93.java" />
         <option value="$PROJECT_DIR$/src/Sort/heapSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/shellSort.java" />
+        <option value="$PROJECT_DIR$/src/Backtracking/Subset/Leetcode78.java" />
+        <option value="$PROJECT_DIR$/src/Backtracking/Subset/Leetcode90.java" />
+        <option value="$PROJECT_DIR$/src/Backtracking/Subset/Leetcode491.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="840" />
+    <option name="x" value="443" />
     <option name="y" value="25" />
-    <option name="width" value="840" />
+    <option name="width" value="1237" />
     <option name="height" value="967" />
   </component>
   <component name="ProjectView">
@@ -104,6 +95,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,30 +114,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Backtracking" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Leetcode-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Leetcode-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Leetcode-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Stack" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,11 +222,12 @@
       <workItem from="1617109957177" duration="2469000" />
       <workItem from="1617224037395" duration="12140000" />
       <workItem from="1617362150775" duration="1736000" />
+      <workItem from="1617374284978" duration="4493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44899000" />
+    <option name="totallyTimeSpent" value="49392000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -265,9 +239,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="840" y="25" width="840" height="967" extended-state="0" />
+    <frame x="443" y="25" width="1237" height="967" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22431077" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.035983264" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -583,8 +557,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/shellSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="475">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Backtracking/Subset/Leetcode491.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Backtracking/Subset/Leetcode90.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Backtracking/Subset/Leetcode78.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
