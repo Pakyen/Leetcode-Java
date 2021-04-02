@@ -1,6 +1,6 @@
 package Sort;
 
-public class BubbleSort {
+public class bubbleSort {
     public static void bubbleSort(int[] arr){
         int n = arr.length;
         boolean swap;

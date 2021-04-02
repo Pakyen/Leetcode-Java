@@ -1,6 +1,6 @@
 package Sort;
 
-public class InsertionSort {
+public class insertionSort {
     public static void insertionSort(int[] arr){
         int tmp;
         for (int i = 0; i < arr.length-1; i++) {

@@ -1,6 +1,6 @@
 package Sort;
 
-public class SelectionSort {
+public class selectionSort {
     public static void selectionSort(int[] arr){
         int tmp, minIndex=0;
         int n = arr.length;

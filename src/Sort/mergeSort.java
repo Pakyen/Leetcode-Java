@@ -1,6 +1,6 @@
 package Sort;
 
-public class MergeSort {
+public class mergeSort {
     // tmp 是一个和arr一样大小的新数组
     //初始 int[] tmp = new int[arr.length]
     // left = 0, right = arr.length-1
