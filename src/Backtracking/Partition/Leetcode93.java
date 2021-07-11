@@ -1,8 +1,3 @@
-package Backtracking.Partition;
-
-import java.util.ArrayList;
-import java.util.List;
-
 public class Leetcode93 {
 
     List<String> res = new ArrayList<>();
