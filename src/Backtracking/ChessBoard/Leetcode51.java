@@ -3,7 +3,7 @@ package Backtracking.ChessBoard;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Leetcode51 {
+class Leetcode51 {
     List<List<String>> res = new ArrayList<>();
     List<String> path = new ArrayList<>();
 
