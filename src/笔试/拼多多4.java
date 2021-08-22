@@ -11,6 +11,7 @@ import java.util.Scanner;
 先求Ann有多少种排序
 然后遍历Ann，判断相邻两道题，是否合理，不合理就剔除
 应该用回溯法
+
  */
 public class 拼多多4 {
 
