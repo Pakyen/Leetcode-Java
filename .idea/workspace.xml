@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b402375-e328-4581-a92e-4101a2448228" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/笔试/拼多多4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/笔试/拼多多4.java" afterDir="false" />
-    </list>
+    <list default="true" id="6b402375-e328-4581-a92e-4101a2448228" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/笔试/拼多多4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="319">
+              <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -344,12 +342,12 @@
       <workItem from="1628905828950" duration="1000" />
       <workItem from="1628998826053" duration="2767000" />
       <workItem from="1629085553951" duration="31000" />
-      <workItem from="1629616017053" duration="17000" />
+      <workItem from="1629616017053" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97486000" />
+    <option name="totallyTimeSpent" value="97506000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -804,8 +802,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/笔试/拼多多4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="319">
+          <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
