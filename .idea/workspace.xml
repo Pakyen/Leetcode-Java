@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b402375-e328-4581-a92e-4101a2448228" name="Default Changelist" comment="" />
+    <list default="true" id="6b402375-e328-4581-a92e-4101a2448228" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Backtracking/ChessBoard/Leetcode51.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-356">
+            <state relative-caret-position="200">
               <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -46,13 +49,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/笔试/拼多多4.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="319">
-              <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkedList/LRUCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding>
+                <element signature="e#383#405#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DP/Leetcode343.java" />
         <option value="$PROJECT_DIR$/src/DP/Offer62.java" />
         <option value="$PROJECT_DIR$/src/Recursion/Offer38.java" />
         <option value="$PROJECT_DIR$/src/Backtracking/Leetcode77.java" />
@@ -169,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/Tree/offer55_1/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/Tree/Leetcode124.java" />
         <option value="$PROJECT_DIR$/src/笔试/拼多多4.java" />
+        <option value="$PROJECT_DIR$/src/LinkedList/Leetcode146.java" />
       </list>
     </option>
   </component>
@@ -202,7 +217,7 @@
               <item name="Leetcode-Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Leetcode-Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="笔试" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -343,11 +358,12 @@
       <workItem from="1628998826053" duration="2767000" />
       <workItem from="1629085553951" duration="31000" />
       <workItem from="1629616017053" duration="37000" />
+      <workItem from="1630668789459" duration="62000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97506000" />
+    <option name="totallyTimeSpent" value="97568000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,9 +376,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="599" y="25" width="1081" height="967" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19538017" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19923003" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -425,13 +440,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Sort/selectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/insertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -552,13 +560,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../untitled/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="26" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../untitled/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/Huawei/7月11日面试题.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -755,6 +757,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Backtracking/ChessBoard/Leetcode51.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/offer55_1/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -790,22 +802,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Backtracking/ChessBoard/Leetcode51.java">
+    <entry file="file://$PROJECT_DIR$/src/笔试/拼多多4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-356">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="319">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/笔试/拼多多4.java">
+    <entry file="file://$PROJECT_DIR$/src/LinkedList/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        <state relative-caret-position="450">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#383#405#0" expanded="true" />
           </folding>
         </state>
       </provider>
